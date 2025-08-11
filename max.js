@@ -46,7 +46,7 @@ console.log("Maximum age is: ", max)
 
 //maximum numbers from an array
 function maxNumOfArray(array){
-    let temp = 0;
+    let temp = array[0];
     for(let num of array){
         if(num > temp){
             temp = num;
